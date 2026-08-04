@@ -27,6 +27,7 @@ sections.forEach(function(section){
 
 navLinks.forEach(function(link){
     link.addEventListener('click',function(){
+        // @ts-ignore
         document.querySelector('#menu-toggle').checked=false;
     });
 });
